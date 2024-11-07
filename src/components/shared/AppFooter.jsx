@@ -4,29 +4,37 @@ import {
 	FiLinkedin,
 	FiGlobe,
 	FiYoutube,
+	FiFacebook,
+	FiInstagram,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
+
 	{
 		id: 1,
-		icon: <FiGlobe />,
-		url: 'https://www.Umair.me/',
-	},
-	{
-		id: 2,
 		icon: <FiGithub />,
 		url: 'https://github.com/realUmair',
 	},
 	{
-		id: 3,
+		id: 2,
 		icon: <FiTwitter />,
-		url: 'https://twitter.com/realUmair',
+		url: 'https://x.com/umairabbasjp?t=OIcQDhkVWS3QStHEz-cODw&s=08',
+	},
+	{
+		id: 3,
+		icon: <FiLinkedin />,
+		url: 'https://www.linkedin.com/in/syed-umair-abbas-500962130?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
 	},
 	{
 		id: 4,
-		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realUmair',
+		icon: <FiFacebook />,
+		url: 'https://www.facebook.com/shariq.abbas.96?mibextid=ZbWKwL',
+	},
+	{
+		id: 5,
+		icon: <FiInstagram />,
+		url: 'https://www.instagram.com/syedumairabbas?igsh=bTE2ajJ2NTQxbWE2',
 	},
 
 ];

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
-// import Alert from '@mui/material/Alert';
 
 
 const ContactForm = () => {
@@ -80,11 +79,7 @@ const ContactForm = () => {
 						/>
 					</div>
 				</form>
-				{/* {alertVisible && (
-					// <Alert severity="success" onClose={() => setAlertVisible(false)}>
-					// 	Submitted!
-					// </Alert>
-				)} */}
+
 			</div>
 		</div>
 	);
